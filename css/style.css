@@ -39,6 +39,9 @@ h3{
 p{ 
     font-size: 2.1em;   
 }
+img{
+    text-align: center;
+}
 /* ----------Small devices-------*/
 @media (max-width: 720px) {
     .my-nav {
@@ -105,6 +108,10 @@ margin-bottom: 40vh;
     font-size: 16px;
     font-weight: 600;
     position: fixed;
+    background-color: var(--main-blue);
+    padding: 8px 12px 8px 12px; 
+    border-radius: 40px;
+    color: white;
     bottom: 1em;
     right: 1em;
     z-index: 9999;
