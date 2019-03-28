@@ -1,0 +1,95 @@
+:root{
+    --dark-grey:#4D4D4D;
+    --light-grey:#868686;
+    --main-blue:#3F88FB;
+
+}
+
+/*--------General---------------*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.625em;
+    color: var(--dark-grey);
+}
+.content-text{
+font-size: 2.1em
+}
+.content-semi-bold{
+    font-weight: 600;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    font-weight: 700;
+    color:var(--main-blue)
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    font-weight: 700; 
+}
+h3{
+    font-family: 'Merriweather', serif;
+    font-size: 2.1em;
+    font-weight: 700; 
+    color:var(--main-blue)
+
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 2.1em;  
+    
+}
+
+/*---------Nav bar---------------*/
+@media (max-width: 720px) {
+.my-nav {
+      background-color:white;
+    }
+}
+nav a.navbar-brand {
+  font-family: 'Merriweather', serif;
+  font-size: 2em
+}
+nav a.navbar-brand span {
+    font-family: 'Work Sans', sans-serif;
+  }
+nav a.nav-link {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+   
+}
+nav .nav-item.active a.nav-link{
+    font-weight: bold;
+}
+
+
+/*---------------Main-------------*/
+h1.display-1{
+    font-size: 3.6em;
+    font-weight: 900;
+    color:var(--dark-grey)
+}
+.container .row.main{
+margin-top: 25vh;
+margin-bottom: 40vh;
+}
+.main .d-flex{
+    height:  100%;
+}
+.main .d-flex a {
+    text-decoration: underline;
+    color: var(--dark-grey);
+    font-weight: 600;
+    
+}
+#fab{
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    z-index: 9999;
+}
+
