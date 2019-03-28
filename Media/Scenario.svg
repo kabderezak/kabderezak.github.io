@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="730" height="399" viewBox="0 0 730 399">
+  <defs>
+    <filter id="Rectangle_4" x="0" y="0" width="730" height="399" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_594" data-name="Group 594" transform="translate(-317.5 -4337.5)">
+    <g transform="matrix(1, 0, 0, 1, 317.5, 4337.5)" filter="url(#Rectangle_4)">
+      <g id="Rectangle_4-2" data-name="Rectangle 4" transform="translate(4.5 1.5)" fill="#fff" stroke="rgba(134,134,134,0.24)" stroke-width="1">
+        <rect width="721" height="390" stroke="none"/>
+        <rect x="0.5" y="0.5" width="720" height="389" fill="none"/>
+      </g>
+    </g>
+    <text id="Personas_Khaled_Scenario_1_Onboarding_" data-name="Personas Khaled
+Scenario 1 Onboarding
+" transform="translate(338 4355)" fill="#4d4d4d" font-size="21" font-family="WorkSans-SemiBold, Work Sans" font-weight="600"><tspan x="0" y="20">Personas</tspan><tspan y="20" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan y="20" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400">Khaled</tspan><tspan x="0" y="45">Scenario 1</tspan><tspan y="45" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan y="45" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400">Onboarding</tspan><tspan fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="70"></tspan></tspan></text>
+    <text id="Goals_Try_the_app_for_the_first_time._See_if_there_are_suitable_books._Make_his_daughter_read_few_of_them._" data-name="Goals 
+•	Try the app for the first time. 
+•	See if there are suitable books.
+•	Make his daughter read few of them.
+" transform="translate(338 4446)" fill="#4d4d4d" font-size="21" font-family="WorkSans-SemiBold, Work Sans" font-weight="600"><tspan x="0" y="20">Goals</tspan><tspan y="20" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="45">•	Try the app for the first time. </tspan><tspan x="0" y="70">•	See if there are suitable books.</tspan><tspan x="0" y="95">•	Make his daughter read few of them.</tspan></tspan></text>
+    <text id="Narrative_The_first_time_Khaled_open_Quizzito_family_he_will_read_about_our_concept._Next_he_will_create_his_parent_account._Once_he_finishes_he_can_browse_books_contest_or_he_can_add_his_daughter._If_he_creates_an_account_for_her_he_must_add_at_least_" data-name="Narrative
+The first time Khaled open Quizzito family, he will read about our concept. Next, he will create his parent account. Once he finishes, he can browse books/contest or he can add his daughter. If he creates an account for her, he must add at least " transform="translate(338 4573)" fill="#4d4d4d" font-size="21" font-family="WorkSans-SemiBold, Work Sans" font-weight="600"><tspan x="0" y="20">Narrative</tspan><tspan fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="45">The first time Khaled open Quizzito family, he will read about our </tspan><tspan x="0" y="70">concept. Next, he will create his parent account. Once he finishes, </tspan><tspan x="0" y="95">he can browse books/contest or he can add his daughter. If he </tspan><tspan x="0" y="120">creates an account for her, he must add at least one gift.</tspan></tspan></text>
+    <text id="Background_Khaled_just_heard_about_us_from_a_friend_He_searched_on_play_store_and_downloaded_Quizzito_Family" data-name="Background Khaled just heard about us from a friend, He searched on play store and downloaded Quizzito Family" transform="translate(598 4355)" fill="#4d4d4d" font-size="21" font-family="WorkSans-SemiBold, Work Sans" font-weight="600"><tspan x="0" y="20">Background</tspan><tspan y="20" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan y="20" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400">Khaled just heard about us </tspan><tspan x="0" y="45" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400">from a friend, He searched on play store </tspan><tspan x="0" y="70" fill="#868686" font-family="WorkSans-Regular, Work Sans" font-weight="400">and downloaded Quizzito Family</tspan></text>
+  </g>
+</svg>

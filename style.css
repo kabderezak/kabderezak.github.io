@@ -36,18 +36,31 @@ h3{
     color:var(--main-blue)
 
 }
-p{
-    font-family: 'Merriweather', serif;
-    font-size: 2.1em;  
-    
+p{ 
+    font-size: 2.1em;   
 }
+/* ----------Small devices-------*/
+@media (max-width: 720px) {
+    .my-nav {
+          background-color:white;
+    }
+    h1.display-1{
+        text-align: center;
+        
+    }
+    h2{
+        font-size: 2.1em
+    }
+    h3{
+        font-size: 1.6em
+    }
+    p{ 
+            font-size: 1.6em;   
+    }
+    }
 
 /*---------Nav bar---------------*/
-@media (max-width: 720px) {
-.my-nav {
-      background-color:white;
-    }
-}
+
 nav a.navbar-brand {
   font-family: 'Merriweather', serif;
   font-size: 2em
@@ -63,7 +76,11 @@ nav a.nav-link {
 nav .nav-item.active a.nav-link{
     font-weight: bold;
 }
-
+.main .d-flex p {
+  text-align: center;
+    
+    
+}
 
 /*---------------Main-------------*/
 h1.display-1{
