@@ -1,15 +1,10 @@
-:root{
-    --dark-grey:#4D4D4D;
-    --light-grey:#868686;
-    --main-blue:#3F88FB;
 
-}
 
 /*--------General---------------*/
 body{
     font-family: 'Work Sans', sans-serif;
     font-size: 0.625em;
-    color: var(--dark-grey);
+    color: #4D4D4D;
 }
 .content-text{
 font-size: 2.1em
@@ -22,7 +17,7 @@ h1{
     font-family: 'Merriweather', serif;
     font-size: 3em;
     font-weight: 700;
-    color:var(--main-blue)
+    color:#3F88FB
 }
 h2{
     font-family: 'Merriweather', serif;
@@ -33,7 +28,7 @@ h3{
     font-family: 'Merriweather', serif;
     font-size: 2.1em;
     font-weight: 700; 
-    color:var(--main-blue)
+    color:#3F88FB
 
 }
 p{ 
@@ -85,14 +80,12 @@ nav .nav-item.active a.nav-link{
     
     
 }
-.width100{
-    width: 100%
-}
+
 /*---------------Main-------------*/
 h1.display-1{
     font-size: 3.6em;
     font-weight: 900;
-    color:var(--dark-grey)
+    color:#4D4D4D
 }
 .container .row.main{
 margin-top: 25vh;
@@ -103,7 +96,7 @@ margin-bottom: 40vh;
 }
 .main .d-flex a {
     text-decoration: underline;
-    color: var(--dark-grey);
+    color: #4D4D4D;
     font-weight: 600;
     
 }
@@ -111,7 +104,7 @@ margin-bottom: 40vh;
     font-size: 16px;
     font-weight: 600;
     position: fixed;
-    background-color: var(--main-blue);
+    background-color: #3F88FB;
     padding: 8px 12px 8px 12px; 
     border-radius: 40px;
     color: white;
