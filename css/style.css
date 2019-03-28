@@ -40,8 +40,9 @@ p{
     font-size: 2.1em;   
 }
 img{
-    text-align: center;
+    align-self: center
 }
+
 /* ----------Small devices-------*/
 @media (max-width: 720px) {
     .my-nav {
@@ -84,7 +85,9 @@ nav .nav-item.active a.nav-link{
     
     
 }
-
+.width100{
+    width: 100%
+}
 /*---------------Main-------------*/
 h1.display-1{
     font-size: 3.6em;
