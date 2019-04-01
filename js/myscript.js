@@ -20,3 +20,23 @@ function myFunction() {
     fab.innerHTML = "Email me";
     fab.style.backgroundColor= '#166EF8'
   }
+
+
+  window.onload = function() {
+    scrollToTopButton = document.getElementById("scrollToTopButton");
+    };
+
+    window.onscroll = controlScrollToTopButton;
+
+    function controlScrollToTopButton() {
+    var windowInnerHeight = 2 * window.innerHeight;
+
+    if (
+        document.scrollingElement.scrollTop > windowInnerHeight && screen.width>1080
+    ) {
+        scrollToTopButton.classList.add("show");
+        
+    } else {
+        scrollToTopButton.classList.remove("show");
+    }
+    }

@@ -2,6 +2,7 @@
 
 <html lang="en">
     <head>
+            <link rel="shortcut icon" href="/Media/personal_logo.png" type="image/x-icon" />
        <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137271672-1"></script>
 <script>
@@ -33,7 +34,7 @@
         <link rel="stylesheet" href="/css/style.css">
         <title>Abderezak KAFI</title>
     </head>
-    <body>
+    <body >
         
         <!----------Nav Bar----------->
             <nav class="navbar  fixed-top navbar-expand-lg navbar-light my-nav ">
@@ -83,8 +84,11 @@
                 </div>
                 <div class="col-sm-0 col-lg-1 order-sm-4"></div>
            </div>
-     
-        <button id="fab" class="btn" onclick="myFunction()">Email me</button>
+        <!---------------Email me and scroll top--------------->
+        <button id="scrollToTopButton" class="btn my-button" onclick="window.scrollTo(0 ,0);">
+        <img src="/Media/goToTop.svg" alt="go to top">
+        </button>
+        <button id="fab" class="btn my-button" onclick="myFunction()">Email me</button>
            <!-----------------main--------------->
            <div class="row">
                 <div class="col-sm-0 col-lg-4"></div>
@@ -106,7 +110,31 @@
            <div class="row">
                 <div class="col-sm-1 col-lg-2"></div>
                 <div class="col-sm-11 col-lg-8">
-                <h1><br>Brief</h1>    
+                    <h1><br>Summary</h1>
+                    <p>
+                        <a href="#1">1. Brief</a><br>
+                        <a href="#2">2. Research</a><br>
+                        <a href="#2.1">2.1&emsp;Stakeholders interviews</a><br>
+                        <a href="#2.2">2.2&emsp;Existing product audit</a><br>
+                        <a href="#2.3">2.3&emsp;Competitive analysis </a><br>
+                        <a href="#2.4">2.4&emsp;Audience</a><br>
+                        <a href="#2.4.1">2.4.1&emsp;&emsp;User groups</a><br>
+                        <a href="#2.4.2">2.4.2&emsp;&emsp;User Personas</a><br>
+                        <a href="#2.5">2.5&emsp;User research</a><br>
+                        <a href="#3">3. Analysis</a><br>
+                        <a href="#3.1">3.1&emsp;Affinity diagram</a><br>
+                        <a href="#3.2">3.2&emsp;Empathy maps</a><br>
+                        <a href="#3.3">3.3&emsp;Journey maps</a><br>
+                        <a href="#4">4. Ideation</a><br>
+                        <a href="#4.1">4.1&emsp;Main functionalities</a><br>
+                        <a href="#4.2">4.2&emsp;User task flows</a><br>
+                        <a href="#4.3">4.3&emsp;Information architecture</a><br>
+                        <a href="#4.4">4.4&emsp;Wireframes</a><br>
+                        <a href="#5">5.&emsp;Prototypes</a><br>
+                        <a href="#6">6.&emsp;What did I learn?</a><br>
+                            
+                    </p>
+                <h1 id="1"><br>Brief</h1>    
                 <p>
                         Quizzito family was designed for Eurl Kitabquiz an Algerian enterprise 
                         interested in kids’ education. They asked me to redesign both their 
@@ -127,8 +155,8 @@
                         identity.
                         
                 </p>
-                <h1><br>Research</h1> 
-                <h2><br>Stakeholders interviews</h2> 
+                <h1 id="2"><br>Research</h1> 
+                <h2 id="2.1"><br>Stakeholders interviews</h2> 
                 <p>
                         At our first interview I prepared a few precise questions to know more about the strategy and business objectives. I found that we can resume the concept in three words: Read, Play, Win.
                         <br>
@@ -137,13 +165,13 @@
                         Additionally, to the parents, Quizzito Family has a reading competitions section in order to grow their DAU.
                         
                 </p>
-                <h2><br>Existing product audit</h2>
+                <h2 id="2.2"><br>Existing product audit</h2>
                 <p>
                         First, I started with the parents' side. My first impression was that it looks very standard with poor material UI. Once started using it I noticed a bad information architecture and design. But the critical issue was the misleading storyboarding (It was not clear for the parent how and when to add gifts). When I discussed this with stakeholders, they admitted that they had a significant user drop because of this issue.
                         <br>
                         Second, I moved to the kids’ side. I found that it was not matching the business objectives. A bad quality pictures, no vivid colors, no micro interactions... The first question that came to me is: how they expect the kids to enjoy this experience.
                 </p>
-                <h2><br>Competitive analysis</h2> 
+                <h2 id="2.3"><br>Competitive analysis</h2> 
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10">
                         <p>
@@ -156,8 +184,8 @@
                         </a>
                     </div>
                 </div>
-                <h2><br>Audience</h2> 
-                <h3><br>User groups</h3>
+                <h2 id="2.4"><br>Audience</h2> 
+                <h3 id="2.4.1" ><br>User groups</h3>
                 <p>
                         <span class="content-semi-bold"> Parent</span>: know the importance of reading especially for kids. As a result, he wants to motivate his kids to read more books while being able to choose them
                         <br> 
@@ -173,14 +201,14 @@
                         2.&emsp;Have fun while using the technology.
                         
                 </p>
-                <h3><br>User groups</h3>
+                <h3 id="2.4.2"><br>User personas</h3>
                 <p>
                     Here is one of the personas I created for our parent user group
                 </p>
                 <a href="/Media/Personas.svg" class="progressive replace">
                     <img src="/Media/sm/Personas.jpg" class="preview" alt="Scenario for khaled"/>
                 </a>
-                <h3><br>User Scenarios</h3>
+                <h3 id="2.4.3"><br>User Scenarios</h3>
                 <p>
                         Once I finished the personas, I started writing scenarios to clarify 
                         how they will be using our <span class="content-semi-bold">future</span> design.
@@ -188,7 +216,7 @@
                 <a href="/Media/Scenario.svg" class="progressive replace">
                     <img src="/Media/sm/Scenario.jpg" class="preview" alt="Scenario for khaled"/>
                 </a>
-                <h2><br>User research</h2> 
+                <h2 id="2.5"><br>User research</h2> 
                 <p>
                         For me, doing this phase right is the first step for a successful project. So, first of all, I organized a meeting with stakeholders to determine the research questions. For each one, I chose a research method to answer it. Once I finished, I defined recruitment criteria and started recruiting participants. A part of them were already our users, but I had to go to specific events to find others. Finally, I was able to start the research after getting their informed consent. Then I started analysis. 
                 </p>
@@ -208,22 +236,22 @@
                         •&emsp;Do you like the suggested gifts?<br>
                         •&emsp;When you like to play?<br>
                 </p>
-                <h1><br>Analysis</h1>
-                <h2><br>Affinity diagram <span style="color:#868686">(simplified)</span></h2>
+                <h1 id="3"><br>Analysis</h1>
+                <h2 id="3.1"><br>Affinity diagram <span style="color:#868686">(simplified)</span></h2>
                 <p>
                         I started grouping the collected information to summarize/share what I learned in the interviews and validate the hypothesis 
                 </p>
                 <a href="/Media/affinity diagram.svg" class="progressive replace">
                     <img src="/Media/sm/affinity diagram.jpg" class="preview" alt="Affinity diagram"/>
                 </a>
-                <h2><br>Empathy maps</h2>
+                <h2 id="3.2"><br>Empathy maps</h2>
                 <p>
                         Next, I did some empathy maps. You find below one about our persona Khaled who wants his kids to start reading books, so they get used to it.
                 </p>
                 <a href="/Media/empathy_map.png" class="progressive replace">
                     <img src="/Media/sm/empathy_map.jpg" class="preview" alt="Empathy map"/>
                 </a>
-                <h2><br>Journey maps </h2>
+                <h2 id="3.3"><br>Journey maps </h2>
                 <p>
                         Now we have empathy for the users It is necessary to search what are their pain points with the existing app so I created few empathy maps with different lenses:
                        <br>
@@ -234,8 +262,8 @@
                         Elaborating journey maps enabled me to see precisely what I need to change in the onboarding, the payment process, and other areas. It also helped us as a team to have a unified vision.
                         Note: Before the changes, some parents were not adding any gift for their kids. This was the major issue for their user drop. Now, the parent adds at least 3 gifts just after adding their first kid. For the purchase, the conversion rate raised from 1% to 4% just by ameliorating the payment process.              
                 </p>
-                <h1><br>Ideation</h1>
-                <h2><br>Main functionalities <span style="color:#868686">(simplified)</span></h2>
+                <h1 id="4" ><br>Ideation</h1>
+                <h2 id="4.1" ><br>Main functionalities <span style="color:#868686">(simplified)</span></h2>
                 <p>
                         The next step in the process was to write and priorities functional specs you find following a simplified version. <br>
                         <br>
@@ -258,7 +286,7 @@
                         •&emsp;See / join contests<br>
                         •&emsp;Follow his progress 
                 </p>
-                <h2><br>User task flows</h2>
+                <h2 id="4.2"><br>User task flows</h2>
                 <p>
                         Once the functional specs got approved, I started making the user flows. I choose to keep them simple so we can go faster and do as much iterations as we need. Here an example for the parent onboarding (click for full view):
                 </p>
@@ -275,7 +303,7 @@
            <div class="row">
                 <div class="col-sm-1 col-lg-2"></div>
                 <div class="col-sm-11 col-lg-8">
-                    <h2><br>Information architecture</h2>
+                    <h2 id="4.3"><br>Information architecture</h2>
                     <p>
                             Before to start prototyping, I like to be sure that I satisfy our users from both sides: functionalities and content. Thus, elaborating a good information architecture is a must.
                     </p>
@@ -292,7 +320,7 @@
             <div class="row">
                     <div class="col-sm-1 col-lg-2"></div>
                     <div class="col-sm-11 col-lg-8">
-                        <h2><br>Wireframes</h2>
+                        <h2 id="4.4"><br>Wireframes</h2>
                         <p>
                                 After getting a solid base from research, I was able to start prototyping having my users in mind so here are some chosen screens.
                                 <br>
@@ -317,7 +345,7 @@
                             <p>
                                     <br> After doing many sessions revising those prototypes I was ready to move to the last step 
                             </p>
-                            <h1><br>Prototypes</h1>
+                            <h1 id="5"><br>Prototypes</h1>
                             <p>
                                    <br> Following Quizzito strategy I elaborated a graphic charter so it can be a reference for all the team. Next, I started implementing the screens
                             <br>
@@ -345,16 +373,30 @@
                             <a href="/Media/day3_p.png" class="progressive replace">
                                 <img src="/Media/sm/Day1_p.jpg" class="preview" alt="Quizzito family screens"/>
                             </a>
-                            <p class="text-center">
-                                
-                                    I’m eager to receive any feedback besides your heatmap ^^.
-                                    <br><br><br><br>
-                            </p>
-
-
+                           
 
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-1 col-lg-2"></div>
+                        <div class="col-sm-11 col-lg-8">
+                            <h1 id="6"><br>What I learned ?</h1>
+                            <p>
+                                I chose to work on Quizzito Family because of the noble purpose. While building something helpful for the youth, I was able to learn a few things.
+                                First of all, I learned how to work better within a team.  I developed the way I was presenting my research findings. Furthermore, I was able to argue about all the design choices I made. 
+                               <br>
+                                Second, I worked under multiple constraints the major one was the limited skills of the front-end developer.  Hopefully, I'm from a computer science background, I coded before and I know what does it mean to develop certain functionalities. Thus, I was taking into consideration the team skills and the time constraint also. 
+                              <br>
+                                Third, it's all about iterations. Every time I was doing a usability test, conducting an interview or just observing the user behavior I was learning new thing especially from the kids. So I'm able to say that a designer mission will never finish, we can always make things better. 
+                            </p>
+                            <p class="text-center content-semi-bold">
+                                
+                                I’m eager to receive any feedback besides your heatmap ^^.
+                                <br><br><br><br><br><br>  <br><br>
+                            </p>
+                        </div>
+                        <div class="col-sm-1 col-lg-2"></div>
+                   </div>
 
 
 
@@ -365,7 +407,6 @@
 
        
 
-        
 
 
 

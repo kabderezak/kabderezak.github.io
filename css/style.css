@@ -60,8 +60,12 @@ img{
         text-align: center;
         font-size: 2.1em;   
     }
-          
-      
+ 
+}
+/* ----------big devices-------*/
+@media (max-width: 1080px) {
+
+
 }
 
 /*---------Nav bar---------------*/
@@ -102,18 +106,39 @@ margin-bottom: 40vh;
     
 }
 
-#fab{
 
+#fab{
+    position: fixed;
     bottom: 1em;
     right: 1em;
-    position: fixed;
     z-index: 9999;
+    padding: 8px 12px 8px 12px; 
     font-size: 16px;
     font-weight: 600;
     background-color: #166EF8;
-    padding: 8px 12px 8px 12px; 
     border-radius: 30px;
     color: white;
-   box-shadow: 0px 1px  3px grey;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    
 }
 
+#scrollToTopButton{
+    position: fixed;
+   
+    padding: 8px; 
+    bottom: 1em;
+    right: 10em;
+    opacity: 0; 
+    visibility: hidden;
+    z-index: 9999;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+#scrollToTopButton.show{
+    visibility: visible;
+    opacity: 1;
+}
