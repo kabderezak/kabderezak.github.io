@@ -37,6 +37,11 @@ p{
 img{
     align-self: center
 }
+.link{
+    color: #4D4D4D;
+    text-decoration: underline;
+    font-weight: 600;
+}
 
 /* ----------Small devices-------*/
 @media (max-width: 720px) {
@@ -119,6 +124,12 @@ margin-bottom: 40vh;
     border-radius: 30px;
     color: white;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+#fab:hover{
+    font-size: 20px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+    transition: 100ms;
     
 }
 
