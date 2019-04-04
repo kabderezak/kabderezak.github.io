@@ -48,7 +48,7 @@ img{
 }
 
 .small-text{
-    font-size: 0.8em
+    font-size: 0.8rem
 }
 
 /*---------Nav bar---------------*/
@@ -150,20 +150,21 @@ h1.display-2{
     font-family: 'Merriweather', serif;
     font-weight: 700; 
     text-align: center;
+    margin-bottom: 0;
 }
 #testimonials .carousel-indicators li{
  background-color: rgb(201, 201, 201);
  position:relative;
- top:2em;
+ top:3em;
 }
 #testimonials .carousel-indicators li.active  {
     background: #4D4D4D;
-    height: 10px;
-    width: 10px;
    }
 
 
-
+.carousel-control-next-icon{
+    outline: #4D4D4D;
+}
 
 
    /* ----------Small devices-------*/
@@ -173,6 +174,10 @@ h1.display-2{
     }
     h1.display-1{
         text-align: center;
+        
+    }
+    h1.display-2{
+       font-size: 2.1em
         
     }
     h2{
@@ -197,4 +202,6 @@ h1.display-2{
         height: 4px;
         border-radius: 100%;
       }
+     
+    
 }
