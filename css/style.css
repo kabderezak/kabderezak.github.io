@@ -6,6 +6,7 @@ body{
     font-size: 0.625em;
     color: #4D4D4D;
 }
+
 .content-text{
 font-size: 2.1em
 }
@@ -48,17 +49,21 @@ img{
 }
 
 .small-text{
-    font-size: 0.8rem
+    font-si ze: 0.8rem
 }
 
 /*---------Nav bar---------------*/
 
 nav a.navbar-brand {
   font-family: 'Merriweather', serif;
-  font-size: 2em
+  font-size: 2em;
+
+  
 }
 nav a.navbar-brand span {
     font-family: 'Work Sans', sans-serif;
+
+
   }
 nav a.nav-link {
     font-family: 'Work Sans', sans-serif;
@@ -67,7 +72,10 @@ nav a.nav-link {
 }
 nav .nav-item.active a.nav-link{
     font-weight: bold;
+
 }
+
+
 
 /*---------------Main-------------*/
 h1.display-1{
@@ -176,7 +184,40 @@ color: #4D4D4D;
     background: #4D4D4D;
 }
 
+/*----------HabiQods--------------*/
+body.habiqods .navbar-light .navbar-nav .nav-link,
+body.habiqods .navbar-light .navbar-nav .nav-link:focus,
+body.habiqods .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+  }
+body.habiqods nav a.navbar-brand span {
+      color: white;
+    }
 
+    body.habiqods nav a.nav-link {
+      color: white;
+  }
+  body.habiqods nav .nav-item.active a.nav-link{
+      color: white;
+  
+  }
+  body.habiqods .navbar-light .navbar-brand:focus,
+  body.habiqods .navbar-light .navbar-brand,
+  body.habiqods .navbar-light .navbar-brand:focus,
+  body.habiqods .navbar-light .navbar-brand:hover{
+      color:white;
+  }
+  body.habiqods{
+    background-color: black;
+    color: white;
+}
+body.habiqods h1{
+    color: #C1912D;
+}
+
+  
+  /*----------HabiQods--------------*/
+  
 
 
    /* ----------Small devices-------*/
