@@ -244,12 +244,19 @@ body.fastwork h1{
     color: #F9AA33
 }
 
-
-
-
-
-
 /*--------------FastWork------------------*/
+
+/*--------------zedlashes-----------------*/
+
+
+body.fastwork{
+    color: black;
+}
+body.fastwork h1{
+    color: #FF0080;
+}
+
+/*--------------zedlashes------------------*/
 
 
    /* ----------Small devices-------*/
