@@ -214,10 +214,42 @@ body.habiqods nav a.navbar-brand span {
 body.habiqods h1{
     color: #C1912D;
 }
+body.habiqods h3{
+color: white;
+}
 
-  
+body.habiqods span.highlited{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 0.1em;
+}
+
+@media (max-width: 720px) {
+body.habiqods .my-nav {
+    background-color:black;
+}
+
+}
   /*----------HabiQods--------------*/
-  
+ 
+
+/*--------------FastWork-----------------*/
+
+
+body.fastwork{
+    color: #344955
+}
+body.fastwork h1{
+    color: #F9AA33
+}
+
+
+
+
+
+
+/*--------------FastWork------------------*/
 
 
    /* ----------Small devices-------*/
@@ -255,6 +287,8 @@ body.habiqods h1{
         height: 4px;
         border-radius: 100%;
       }
-     
-    
+      .content-text{
+        font-size: 1.6em
+        }
+  
 }
