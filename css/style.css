@@ -249,14 +249,33 @@ body.fastwork h1{
 /*--------------zedlashes-----------------*/
 
 
-body.fastwork{
+body.zedlashes{
     color: black;
 }
-body.fastwork h1{
+body.zedlashes h1{
     color: #FF0080;
 }
 
 /*--------------zedlashes------------------*/
+
+/*--------------leaderbio-----------------*/
+
+
+body.leaderbio{
+    color: black;
+}
+body.leaderbio h1{
+    color: #7FBC03;
+}
+
+body.leaderbio h1.sans-serif{
+    font-family: 'Work Sans', sans-serif;
+    color: #006E47;
+}
+body.leaderbio h3{
+    color: #006E47;
+}
+/*--------------leaderbio------------------*/
 
 
    /* ----------Small devices-------*/
