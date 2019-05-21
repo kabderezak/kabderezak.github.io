@@ -155,6 +155,12 @@ margin-bottom: 40vh;
     visibility: visible;
     opacity: 1;
 }
+span.highlited{
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 0.1em;
+}
 /*-------------------------About--------------------*/
 h1.display-2{
     font-size: 3.6em;
