@@ -281,6 +281,21 @@ body.zedlashes h1{
 
 /*--------------zedlashes------------------*/
 
+
+/*--------------ecom-----------------*/
+
+
+body.ecom{
+    color: #164059;
+    background-color: #F2F2F0;
+}
+body.ecom h1{
+    color: #F1AE38;
+}
+
+/*--------------ecom------------------*/
+
+
 /*--------------leaderbio-----------------*/
 
 
@@ -300,18 +315,41 @@ body.leaderbio h3{
 }
 
 /*--------------leaderbio------------------*/
-/*--------------zedlashes-----------------*/
+/*--------------crom-----------------*/
 
 
-body.ecom{
-    color: #164059;
-    background-color: #F2F2F0;
+body.crom{
+    color: black;
 }
-body.ecom h1{
-    color: #F1AE38;
+body.crom p{
+    font-size: 1.8em;
+}
+body.crom h1{
+    color: #007854;
 }
 
-/*--------------zedlashes------------------*/
+body.crom h3{
+    color: #707070;
+}
+body.crom li p{
+    font-size: 1.8em
+}
+#download-pages{
+    color: #003925;
+    font-family: Merriweather;
+    font-weight: 700;
+    background-color: #E0B446;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+a.btn:hover{
+    text-decoration: none;
+}
+/*--------------crom------------------*/
+
+
+
+
 
    /* ----------Small devices-------*/
 @media (max-width: 720px) {
@@ -332,8 +370,14 @@ body.ecom h1{
     h3{
         font-size: 1.6em
     }
-    p{ 
-            font-size: 1.6em;   
+    p, body.crom p{ 
+            font-size: 1.6em 
+    }
+    body.crom li p{
+        font-size: 1.6em ;
+    }
+    body.crom ol, body.crom ul{
+        margin-left: -3em;
     }
     .main .d-flex p {
         text-align: center;
