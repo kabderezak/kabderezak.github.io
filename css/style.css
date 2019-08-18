@@ -347,7 +347,22 @@ a.btn:hover{
 }
 /*--------------crom------------------*/
 
+/*--------------ws-----------------*/
 
+
+body.ws{
+    color: #001F2E;
+}
+body.ws h1{
+    color: #449BD5;
+}
+body.ws ol li{
+    font-size: 2.1em
+}
+
+
+
+/*--------------ws------------------*/
 
 
 
@@ -373,7 +388,10 @@ a.btn:hover{
     p, body.crom p{ 
             font-size: 1.6em 
     }
-    body.crom li p{
+    body.crom li {
+        font-size: 1.6em ;
+    }
+    body.ws li {
         font-size: 1.6em ;
     }
     body.crom ol, body.crom ul{
